@@ -1,0 +1,12 @@
+1. Install Bower globally
+npm install -g bower
+
+2. Install Mocha globally
+npm install –g mocha
+
+3. To run test in
+Unix: 
+a. $ NODE_ENV=test mocha --reporter spec app/tests
+Windows:
+a. set NODE_ENV=test
+b. mocha --reporter spec app/tests
